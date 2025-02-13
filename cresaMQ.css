@@ -1,0 +1,145 @@
+/* Responsive Design */
+
+@media (max-width: 1440px) {
+    /* about section */
+    .abtimg{
+        height: 400px;
+    }
+    .other-card2 h1{
+        font-size: 2.5rem;
+    }
+    /* extra section */
+    .extra-content h1{
+        font-size: 4.7rem;
+    }
+    .extra-content b{
+        font-size: 1.5rem;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1439px) {
+        /* about section */
+        .abtimg{
+            height: 400px;
+        }
+        .other-card2 h1{
+            font-size: 2rem;
+        }
+        /* extra section */
+        .extra-content h1{
+            font-size: 4rem;
+        }
+        .extra-content b{
+            font-size: 1.2rem;
+        }
+}
+@media (min-width: 1441px) and (max-width: 1615px) {
+    /* about section */
+    .abtimg{
+        height: 400px;
+    }
+    .other-card2 h1{
+        font-size: 2rem;
+    }
+    /* extra section */
+    .extra-content h1{
+        font-size: 4rem;
+    }
+    .extra-content b{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    /* hero section */
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .nav-links {
+        gap: 1.5rem;
+    }
+    /* about section */
+    #about .grid-one{
+        display: flex;
+        flex-direction: column;
+    }
+    .other-card {
+        flex-direction: column;
+    }
+    .imga{
+        height: 300px;
+    }
+    .abtimg{
+        height: 500px;
+    }
+    .content1{
+        width: 100%;
+    }
+    .otherbtndiv{
+        justify-self: center;
+    }
+    /* extra section */
+    .extra-grid{
+        flex-direction: column;
+    }
+    .extra-content{
+        width: 100%;
+    }
+    .extra-image{
+        width: 100%;
+        height: 500px;
+    }
+    .extra-content h1{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 70px;
+        right: -100%;
+        flex-direction: column;
+        background: #2a2a2a;
+        width: 100%;
+        padding: 2rem;
+        transition: 0.3s;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+    /* hero section */
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+    /* about & program grid */
+    .btn {
+        justify-self: center;
+    }
+    .card-one{
+        justify-content: center;
+        text-align: center;
+    }
+    .other-card2{
+        text-align: center;
+    }
+    .about-grid,
+    .program-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .abtimg{
+        height: 300px;
+    }
+    .extra-image{
+        height: 300px;
+    }
+}
